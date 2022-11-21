@@ -6,7 +6,6 @@ import 'package:sumpalatestpage/config/app_color.dart';
 import 'package:sumpalatestpage/config/app_format.dart';
 import 'package:sumpalatestpage/models/data_model.dart';
 import 'package:sumpalatestpage/widgets/bottom_nav_bar.dart';
-import 'package:sumpalatestpage/widgets/card_promo.dart';
 
 import 'config/app_color.dart';
 import 'controller/controller_card_promo.dart';
