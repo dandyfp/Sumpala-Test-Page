@@ -47,9 +47,12 @@ class PagePromo extends StatelessWidget {
               child: Text('KOSONG'),
             );
           }
+
           print(snapshot.data);
+
           //CARD PROMO
           return ListView.builder(
+            padding: const EdgeInsets.only(top: 35),
             itemCount: snapshot.data!.length,
             itemBuilder: (context, index) {
               DataModel promo = snapshot.data![index];
@@ -62,7 +65,7 @@ class PagePromo extends StatelessWidget {
                       color: Theme.of(context).colorScheme.surfaceVariant,
                     ),
                     borderRadius: const BorderRadius.all(
-                      Radius.circular(12),
+                      Radius.circular(15),
                     ),
                   ),
                   child: Container(
